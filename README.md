@@ -209,9 +209,9 @@ Understanding the type of data is crucial for:
 ## Measures of Central Tendency
 Used to understand the 'typical' value in a dataset.
 
-- **Mean** - :yellow_circle: Important
-- **Median** - :red_circle: *Extremely Important*
-- **Mode** - :large_blue_circle: *Learn Later*
+- **Mean** - :yellow_circle:
+- **Median** - :red_circle: 
+- **Mode** - :large_blue_circle: 
 - **Weighted Mean** - :large_blue_circle:
 - **Trimmed Mean** - :large_blue_circle:
 
