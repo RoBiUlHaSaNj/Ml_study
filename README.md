@@ -189,4 +189,242 @@ Used for structural data analysis and PCA.
 ## Singular Value Decomposition (SVD)  
 Used for dimensionality reduction, compression, and recommendation systems.  
 **Importance**: [L]
+# Descriptive Statistics
+
+## What is Statistics? Types of Statistics
+
+### Population vs Sample
+In machine learning, a **population** might refer to the entire set of data relevant to a problem, while a **sample** is a subset of that data. Training a model typically happens on a sample (the training set), assumed to be representative of the population.
+
+---
+
+## Types of Data
+Understanding the type of data is crucial for:
+- Preprocessing
+- Feature engineering
+- Model selection
+
+---
+
+## Measures of Central Tendency
+Used to understand the 'typical' value in a dataset.
+
+- **Mean** - :yellow_circle: Important
+- **Median** - :red_circle: *Extremely Important*
+- **Mode** - :large_blue_circle: *Learn Later*
+- **Weighted Mean** - :large_blue_circle:
+- **Trimmed Mean** - :large_blue_circle:
+
+---
+
+## Measures of Dispersion
+Describes the variability in the data.
+
+- **Range**
+- **Variance**
+- **Standard Deviation**
+- **Coefficient of Variation**
+
+---
+
+## Quantiles and Percentiles
+Used to understand data spread and thresholds in decision-making.
+
+### 5-Number Summary and BoxPlot
+Visual tool for identifying outliers and understanding distributions.
+
+---
+
+## Skewness and Kurtosis
+- **Skewness**: Describes asymmetry.
+- **Kurtosis** - :large_blue_circle:
+
+---
+
+## Plotting Graphs
+Used during EDA (Exploratory Data Analysis).
+
+- **Univariate Analysis**
+- **Bivariate Analysis**
+- **Multivariate Analysis**
+
+---
+
+# Correlation
+
+## Covariance
+Indicates the extent to which two variables vary together.
+
+## Covariance Matrix
+Used in PCA, GMM, etc.
+
+## Pearson Correlation Coefficient
+Linear relationship measure; useful in feature selection.
+
+## Spearman Correlation Coefficient - :large_blue_circle:
+Monotonic relationships; used when Pearson's assumptions don't hold.
+
+## Correlation vs Causation
+Correlation ≠ Causation. Avoid false assumptions in model training.
+
+---
+
+# Probability Distributions
+
+## Random Variables
+Forms the mathematical basis of probabilistic ML models.
+
+## What are Probability Distributions?  
+Why are they important?
+
+## PMF, PDF, CDF
+
+- **PMF (Probability Mass Function)**: For discrete variables.
+  - **CDF of PMF**
+- **PDF (Probability Density Function)**: For continuous variables.
+  - **CDF of PDF**
+
+### Density Estimation - :large_blue_circle:
+- **Parametric / Non-Parametric** - :large_blue_circle:
+- **Kernel Density Estimation (KDE)** - :large_blue_circle:
+
+### Using PMF/PDF/CDF in Analysis
+Guides preprocessing and model choices.
+
+### 2D Density Plots
+Used to find clusters and correlations.
+
+---
+
+## Types of Probability Distributions
+
+### Normal Distribution
+- Widely used in ML algorithms
+- **Properties, CDF, Standard Normal Variate**
+
+### Uniform Distribution
+Used in:
+- Random Forests (splits)
+- Neural Net weight initialization
+
+### Bernoulli Distribution
+Binary outcomes: Bernoulli NB, Logistic Regression
+
+### Binomial Distribution
+Multiple Bernoulli trials: classification
+
+### Multinomial Distribution
+Text Classification, Topic Modelling
+
+### Log Normal Distribution
+Used for skewed data and multiplicative processes
+
+### Pareto Distribution - :large_blue_circle:
+Anomaly detection, economics
+
+### Chi-Square Distribution
+Feature selection, independence tests
+
+### Student’s T Distribution
+Used when sample size is small
+
+### Poisson Distribution - :large_blue_circle:
+Event frequency modeling (time, space)
+
+### Beta Distribution - :large_blue_circle:
+Used in Bayesian models
+
+### Gamma Distribution - :large_blue_circle:
+Used in various ML/statistical models
+
+---
+
+## Data Transformations
+Used to:
+- Meet ML assumptions
+- Improve model performance
+- Examples: log, sqrt, z-score
+
+---
+
+# Confidence Intervals
+
+## Point Estimates
+Single predicted value
+
+## Confidence Intervals
+Range where the true parameter lies with a specific confidence
+
+- **Sigma Known**
+- **Sigma Unknown**
+- **Interpreting CI**
+- **Margin of Error**
+
+---
+
+# Central Limit Theorem
+
+## Sampling Distribution
+Helps infer population from a sample
+
+## What is CLT?
+Sample means approximate a normal distribution as sample size grows
+
+## Standard Error
+Used in:
+- Confidence intervals
+- Hypothesis testing
+
+---
+
+# Hypothesis Testing
+
+## What is Hypothesis Testing?
+Used in:
+- Feature selection
+- Model validation
+- A/B testing
+
+## Null vs Alternate Hypothesis
+
+## Steps in Hypothesis Testing
+
+### Z-test
+When variance is known and data is normally distributed.
+
+### T-test
+Used when variance is unknown.
+
+- **Single Sample T-test**
+- **Independent 2 Sample T-test**
+- **Paired 2 Sample T-test**
+
+### Chi-square Test
+Used for categorical data relationships
+
+### Rejection Region
+
+### Type I vs Type II Errors
+
+### One-tailed vs Two-tailed Tests
+
+### Statistical Power
+Detects true effects in data
+
+### P-value
+Used to decide whether to reject the null hypothesis
+
+---
+
+# Legend
+
+- :yellow_circle: Important  
+- :red_circle: Extremely Important  
+- :large_blue_circle: Learn Later  
+
+---
+
+
+
+
 
