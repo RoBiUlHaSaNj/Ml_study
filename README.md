@@ -1,6 +1,6 @@
 # Module Topic Usage in Machine Learning
 
-##Liner Algebra 
+<h2>Liner Algebra </h2>
 ## Scalars
 **What are Scalars**  
 A scalar is a single numeric quantity, fundamental in machine learning for computations, and deep learning for things like learning rates and loss values.  
