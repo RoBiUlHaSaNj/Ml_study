@@ -188,7 +188,11 @@ Used for structural data analysis and PCA.
 
 ## Singular Value Decomposition (SVD)  
 Used for dimensionality reduction, compression, and recommendation systems.  
-**Importance**: [L]
+
+
+# Statistics
+
+
 # Descriptive Statistics
 
 ## What is Statistics? Types of Statistics
